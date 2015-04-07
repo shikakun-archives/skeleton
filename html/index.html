@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=Edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width" name="viewport">
+    <title>{ Title }</title>
+    <meta content="{ Description }" name="description">
+    <meta content="{ Keywords }" name="keywords">
+
+    <!-- Open Graph protocol -->
+    <meta content="{ Title }" property="og:title">
+    <meta content="{ Title }" property="og:site_name">
+    <meta content="website" property="og:type">
+    <meta content="{ Description }" property="og:description">
+    <meta content="{ URL | exapmle: 'http://shikakun.com/' }" property="og:url">
+    <meta content="{ og:image | exapmle: 'og_image.png' }" property="og:image">
+
+    <!-- Twitter Cards -->
+    <meta content="{ twitter:card | exapmle: 'summary_large_image' }" name="twitter:card">
+    <meta content="{ twitter:site | exapmle: '@shikakun' }" name="twitter:site">
+    <meta content="{ URL | exapmle: 'http://shikakun.com/' }" name="twitter:url">
+    <meta content="{ Title }" name="twitter:title">
+    <meta content="{ Description }" name="twitter:description">
+    <meta content="{ og:image | exapmle: 'og_image.png' }" name="twitter:image">
+
+    <!-- Icons -->
+    <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+    <link href="apple-touch-icon-144x144.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+    <link href="apple-touch-icon-114x114.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+    <link href="apple-touch-icon-72x72.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+    <link href="apple-touch-icon-57x57.png" rel="apple-touch-icon-precomposed" sizes="57x57">
+
+    <!-- Feed -->
+    <link href="{ Feed URL | exapmle: 'http://shikakun.com/feed.rss' }" rel="alternate" title="{ Title }" type="application/rss+xml">
+
+    <!-- Assets -->
+    <link href="main.css" media="all" rel="stylesheet">
+    <script src="main.js"></script>
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', '{ Google Analytics ID | exapmle: 'UA-XXXXXXXX-X' }', 'auto');
+      ga('require', 'displayfeatures');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <!-- Facebook SDK -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+  </body>
+</html>
